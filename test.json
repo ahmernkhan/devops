@@ -44,7 +44,7 @@
         "sg-0758e084049bafe90"
     ],
     "SecurityGroups": [
-        "TechPledgeCFdemo-InstanceSecurityGroup-SVWNV78ZCM8E"
+        "TechPledgeCFdemo-jjjjInstanceSecurityGroup-SVWNV78ZCM8E"
     ],
     "SubnetId": "",
     "UserData": "",
