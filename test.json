@@ -1,0 +1,147 @@
+{
+    "BlockDeviceMappings": [
+        {
+            "DeviceName": "",
+            "VirtualName": "",
+            "Ebs": {
+                "DeleteOnTermination": true,
+                "Iops": 0,
+                "SnapshotId": "",
+                "VolumeSize": 0,
+                "VolumeType": "standard",
+                "Encrypted": true,
+                "KmsKeyId": ""
+            },
+            "NoDevice": ""
+        }
+    ],
+    "ImageId": "ami-0756fbca465a59a30",
+    "InstanceType": "t2.micro",
+    "Ipv6AddressCount": 0,
+    "Ipv6Addresses": [
+        {
+            "Ipv6Address": ""
+        }
+    ],
+    "KernelId": "",
+    "KeyName": "TechPledge",
+    "MaxCount": 0,
+    "MinCount": 0,
+    "Monitoring": {
+        "Enabled": false
+    },
+    "Placement": {
+        "AvailabilityZone": "",
+        "Affinity": "",
+        "GroupName": "",
+        "PartitionNumber": 0,
+        "HostId": "",
+        "Tenancy": "dedicated",
+        "SpreadDomain": ""
+    },
+    "RamdiskId": "",
+    "SecurityGroupIds": [
+        "sg-0758e084049bafe90"
+    ],
+    "SecurityGroups": [
+        "TechPledgeCFdemo-InstanceSecurityGroup-SVWNV78ZCM8E"
+    ],
+    "SubnetId": "",
+    "UserData": "",
+    "AdditionalInfo": "",
+    "ClientToken": "",
+    "DisableApiTermination": true,
+    "DryRun": false,
+    "EbsOptimized": true,
+    "IamInstanceProfile": {
+        "Arn": "",
+        "Name": ""
+    },
+    "InstanceInitiatedShutdownBehavior": "terminate",
+    "NetworkInterfaces": [
+        {
+            "AssociatePublicIpAddress": true,
+            "DeleteOnTermination": true,
+            "Description": "",
+            "DeviceIndex": 0,
+            "Groups": [
+                ""
+            ],
+            "Ipv6AddressCount": 0,
+            "Ipv6Addresses": [
+                {
+                    "Ipv6Address": ""
+                }
+            ],
+            "NetworkInterfaceId": "",
+            "PrivateIpAddress": "",
+            "PrivateIpAddresses": [
+                {
+                    "Primary": true,
+                    "PrivateIpAddress": ""
+                }
+            ],
+            "SecondaryPrivateIpAddressCount": 0,
+            "SubnetId": "",
+            "InterfaceType": ""
+        }
+    ],
+    "PrivateIpAddress": "",
+    "ElasticGpuSpecification": [
+        {
+            "Type": ""
+        }
+    ],
+    "ElasticInferenceAccelerators": [
+        {
+            "Type": ""
+        }
+    ],
+    "TagSpecifications": [
+        {
+            "ResourceType": "subnet",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ],
+    "LaunchTemplate": {
+        "LaunchTemplateId": "",
+        "LaunchTemplateName": "",
+        "Version": ""
+    },
+    "InstanceMarketOptions": {
+        "MarketType": "spot",
+        "SpotOptions": {
+            "MaxPrice": "",
+            "SpotInstanceType": "persistent",
+            "BlockDurationMinutes": 0,
+            "ValidUntil": "1970-01-01T00:00:00",
+            "InstanceInterruptionBehavior": "hibernate"
+        }
+    },
+    "CreditSpecification": {
+        "CpuCredits": ""
+    },
+    "CpuOptions": {
+        "CoreCount": 0,
+        "ThreadsPerCore": 0
+    },
+    "CapacityReservationSpecification": {
+        "CapacityReservationPreference": "open",
+        "CapacityReservationTarget": {
+            "CapacityReservationId": ""
+        }
+    },
+    "HibernationOptions": {
+        "Configured": true
+    },
+    "LicenseSpecifications": [
+        {
+            "LicenseConfigurationArn": ""
+        }
+    ]
+}
